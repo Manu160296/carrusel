@@ -1,0 +1,45 @@
+* {
+    background-color: #5b5858;
+    text-align: center;
+    font-family: 'Dawning of a New Day', cursive;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 50px;
+    
+}
+
+img {
+    width: 45%;
+    height: 60vh;
+    border-radius: 10px;
+    border: 10px solid #ffffff;
+}
+
+.carrousel-content{
+    display: none;
+}
+
+.carrousel-content.active{
+    display: block;
+}
+
+.control{
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border : 1px solid #ffffff;
+    border-radius: 50%;
+}
+
+.previous , .next {
+    color: #ffffff;
+    margin: 10px 30px;
+}
+
+.control:hover , .previous:hover , .next:hover{
+    background: #4db6ac;
+    border:1px solid #4db6ac;
+
+}
